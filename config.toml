@@ -14,7 +14,7 @@ title = "Sennoidal"
   [params.logo]
     mobile = "images/logo/Sennoidal.png"
     desktop = "images/logo/Sennoidal.png"
-    desktop_height = "60px"
+    desktop_height = "50px"
     alt = "Sennoidal"
 
   [params.homepage_meta_tags]
