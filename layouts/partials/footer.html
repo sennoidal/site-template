@@ -4,8 +4,7 @@
       <div class="col-12">
         <div class="footer-inner">
           <img height="20px" alt="sennoidal-footer" src="/images/social/footer.webp">
-          <br><br>
-          <ul>
+           <ul>
             {{ $currentPage := . }}
             {{ range .Site.Menus.footer }}
             <li class="menu-item-{{ .Name | lower }}{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}">
@@ -14,6 +13,7 @@
               </a>
             </li>
             {{end}}
+          <br><br>
           </ul>
         </div>
       </div>
