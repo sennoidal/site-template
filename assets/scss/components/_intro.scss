@@ -1,0 +1,51 @@
+.intro {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 90px;
+  overflow: hidden;
+  background-color: #fff;
+  @include media-breakpoint-up(md) {
+    padding-top: 200px;
+    padding-bottom: 140px;
+    background-color: #fff;
+  }
+  h1 {
+    color: #000;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.2;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    @include media-breakpoint-up(md) {
+      width: 80%;
+      font-size: 48px;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 50px;
+    }
+  }
+  h2 {
+    width: 80%;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-bottom: 30px;
+    color: $black;
+    font-family: $font-family-base;
+  }
+  p {
+    font-size: 1.2rem;
+    font-weight: light;
+    line-height: 1.5;
+    color: $steel;
+    @include media-breakpoint-up(md) {
+      width: 80%;
+    }
+  }
+}
+
+.intro-small {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}

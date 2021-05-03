@@ -1,0 +1,32 @@
+.sub-footer {
+  background: #fff;
+  color: #000;
+  padding-top: 0px;
+  padding-bottom: 15px;
+  @include media-breakpoint-up(md) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .sub-footer-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @include media-breakpoint-up(md) {
+      flex-direction: row;
+    }
+  }
+  .copyright {
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    a {
+      font-weight: bold;
+      color: inherit;
+    }
+  }
+  .social {
+    a:first-of-type {
+      margin-left: -10px;
+    }
+  }
+}
