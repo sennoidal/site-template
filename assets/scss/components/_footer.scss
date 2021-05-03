@@ -10,14 +10,6 @@
     box-sizing: border-box;
     margin: 0;
     min-width: 0;
-    display: grid;
-    grid-gap: 24px;
-    grid-template-columns: repeat(6,1fr);
-    display: grid;
-    -webkit-align-items: flex-start;
-    -webkit-box-align: flex-start;
-    -ms-flex-align: flex-start;
-    align-items: flex-start;
     @include media-breakpoint-up(sm) {
       justify-content: space-between;
       flex-direction: row;
