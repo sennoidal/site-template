@@ -56,8 +56,3 @@ title = "Sennoidal"
     name = "Careers"
     url = "/careers/"
       weight = 2
-
-  [[menu.footer]]
-    name = "Contact"
-    url = "/contact/"
-      weight = 4
