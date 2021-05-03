@@ -54,7 +54,7 @@ title = "Sennoidal"
 
   [[menu.footer]]
     name = "Projects and studies cases"
-    url = "/contact/"
+    url = "/"
       weight = 1
 
   [[menu.footer]]
