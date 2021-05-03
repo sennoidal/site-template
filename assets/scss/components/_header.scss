@@ -3,7 +3,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: s
+  position: sticky;
+  top: 0;
+  z-index: 3;
   
 
   // box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2);
