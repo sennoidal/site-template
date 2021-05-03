@@ -52,7 +52,7 @@ title = "Sennoidal"
     url = "/about"
       weight = 1
 
-  [[menu.footer]]
+  [[menu.sub-footer]]
     name = "Projects and applications"
     url = "/"
       weight = 2
