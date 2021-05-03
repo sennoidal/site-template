@@ -75,14 +75,14 @@ title = "Sennoidal"
   [[menu.footer]]
     name = "Contact"
     url = "/contact/"
-      weight = 5
+      weight = 6
 
   [[menu.footer]]
     name = "Contact"
     url = "/contact/"
-      weight = 5
+      weight = 7
 
   [[menu.footer]]
     name = "Contact"
     url = "/contact/"
-      weight = 5
+      weight = 8
