@@ -75,14 +75,9 @@ title = "Sennoidal"
   [[menu.footer]]
     name = "Contact"
     url = "/contact/"
+      weight = 5
+
+  [[menu.footer]]
+    name = "Instagram"
+    url = "/contact/"
       weight = 6
-
-  [[menu.footer]]
-    name = "Contact"
-    url = "/contact/"
-      weight = 7
-
-  [[menu.footer]]
-    name = "Contact"
-    url = "/contact/"
-      weight = 8
