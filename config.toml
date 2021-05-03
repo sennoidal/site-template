@@ -58,6 +58,11 @@ title = "Sennoidal"
       weight = 1
 
   [[menu.footer]]
-    name = "Terms and conditions"
-    url = "/contact/"
+    name = "Privacy"
+    url = "/privacy/"
+      weight = 1
+
+  [[menu.footer]]
+    name = "Careers"
+    url = "/careers/"
       weight = 1
