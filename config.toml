@@ -56,3 +56,13 @@ title = "Sennoidal"
     name = "Contact"
     url = "/contact/"
       weight = 2
+
+  [[menu.footer]]
+    name = "Contact"
+    url = "/contact/"
+      weight = 3
+
+  [[menu.footer]]
+    name = "Contact"
+    url = "/contact/"
+      weight = 4
