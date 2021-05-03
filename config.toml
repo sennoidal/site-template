@@ -47,7 +47,7 @@ title = "Sennoidal"
       weight = 2
 
   # Footer Menu
-  [[menu.footer]]
+  [[menu.sub-footer]]
     name = "About"
     url = "/about"
       weight = 1
