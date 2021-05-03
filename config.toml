@@ -53,21 +53,16 @@ title = "Sennoidal"
       weight = 1
 
   [[menu.footer]]
-    name = "Projects"
-    url = "/"
-      weight = 2
-
-  [[menu.footer]]
     name = "Privacy"
     url = "/privacy/"
-      weight = 3
+      weight = 2
 
   [[menu.footer]]
     name = "Careers"
     url = "/careers/"
-      weight = 4
+      weight = 3
 
   [[menu.footer]]
     name = "Contact"
     url = "/contact/"
-      weight = 5
+      weight = 4
