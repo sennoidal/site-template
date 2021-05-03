@@ -3,15 +3,8 @@
     <div class="row">
       <div class="col-12">
         <div class="footer-inner">
-          <ul>
-            {{ $currentPage := . }}
-            {{ range .Site.Menus.footer }}
-            <li class="menu-item-{{ .Name | lower }}{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}">
-              <a href="{{.URL}}">
-                {{ .Name }}
-              </a>
-            </li>
-            {{end}}
+          <img height="20px" alt="sennoidal-footer" src="/images/social/footer.webp">
+          <br><br>
           <ul>
             {{ $currentPage := . }}
             {{ range .Site.Menus.footer }}
